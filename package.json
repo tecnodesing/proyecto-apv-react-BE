@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-apv-react-be",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proyecto full stack apv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnodesing/proyecto-apv-react-BE.git"
+  },
+  "author": "Irving Velasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecnodesing/proyecto-apv-react-BE/issues"
+  },
+  "homepage": "https://github.com/tecnodesing/proyecto-apv-react-BE#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
