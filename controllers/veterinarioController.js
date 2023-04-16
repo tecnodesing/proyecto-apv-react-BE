@@ -11,7 +11,7 @@ const registrar = async (req, res) => {
     //prevenir usuarios duplicados
     const existeUsuario = await Veterinario.findOne({email: email})
     if(existeUsuario){
-        const error = new Error('Usuario previamente registrado');
+        const error = new Error('Usuario previamente registrado, intente con otro correo o recupere contraseña');
         return res.status(400).json({msg: error.message});
     }
 
